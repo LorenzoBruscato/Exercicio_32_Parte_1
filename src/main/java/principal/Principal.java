@@ -22,8 +22,12 @@ public class Principal {
                     + "\n2 - Imprimir Restaurante"
                     + "\n0 - Sair"));
             switch (op) {
-                case 1 -> restaurante.leitura();
-                case 2 -> restaurante.imprimir();
+                case 1:
+                    restaurante.leitura();
+                    break;
+                case 2:
+                    restaurante.imprimir();
+                    break;
             }
         }
     }
